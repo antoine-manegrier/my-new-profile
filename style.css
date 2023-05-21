@@ -1,0 +1,75 @@
+body {
+	background-color: rgb(240, 240, 240);
+	color: rgb(80, 80, 80);
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	font-size: 18px;
+	font-display: ;
+	}
+
+a{text-decoration: none;}
+
+a:hover {color: red;}
+
+h1, h2{
+	font-family: 'Wix Madefor Display', sans-serif;
+	}
+
+h1{
+	font-weight: bolder;
+	font-size: 32px;
+	}
+
+h2{
+	font-size: 23px;
+	}
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px){
+	.container{width: 600px
+	}
+}
+
+@media (max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, .1);
+	border-radius: 6px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+#img-rounded{
+	border-radius: 3%;
+	box-align: center;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+#list-inline{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color: rgb(220, 190, 205);
+}
+
+.list-inline i:hover{
+	color: rgb(150, 100, 190);
+}
